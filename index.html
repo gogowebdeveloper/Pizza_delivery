@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color:black;
+            color:rgb(222, 94, 94);
+        }
+        #h1{
+            color: rgb(185, 227, 58);
+        }
+        #image1{
+            margin-right: 390px;
+            margin-bottom: -60px;
+        }
+        #image2{
+            margin-left: 400px;
+            margin-top: -99px;
+        }
+
+
+    </style>
+</head>
+<body >
+    <fieldset>
+        <form action="" method="get">
+            <div id="h1" align="center">
+                
+                    <div id="image1"><img src="file:///C:/Users/GO%20GO%20UNIVERSE/Desktop/WEB%20TECH/HTML/assets/Pizza%20black%20background.jpg" alt="" style="width: 80px; height: 80px;"></div>
+                    <h1>Go Go's Pizza Delivery</h1>
+                    <div id="image2"><img src="file:///C:/Users/GO%20GO%20UNIVERSE/Desktop/WEB%20TECH/HTML/assets/Pizza%20black%20background.jpg" alt="" style="width: 80px; height: 80px;"></div>
+                
+            </div>
+            <div id="h2" align="center">
+                <h2>Online Order Form</h2>
+            </div>
+            <div align="center">
+               <table  align="center" >
+                <tr>
+                    <td><label for="Name">*Name:</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter your name">
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="Tel">*Tel:</label>
+                    </td>
+                    <td><input type="tel" placeholder="not a phone number" pattern="[0-9]{10}" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">*Address:</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter your address">
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="email">*Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="123@email.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Towncity">*Towncity:</label></td>
+                    <td>
+                        <input type="text" placeholder="Enter your town">
+                    </td>
+                </tr>
+                <td></td>
+                <tr>
+                    <td >*Postcode:</td>
+                    <td>
+                        <input type="text" placeholder="Enter your postal code" required>
+                    </td>
+                </tr>
+                <div align="center">
+                <table >
+                <tr>
+                    <th>Topping</th>
+                    <th>Size</th>
+                    <th>Extras</th>
+                    <tr style="height: 10px;"><td></td>
+                </tr>
+                </tr>
+                <br><br>
+            
+                <tr>
+                    <td>
+                        <input type="radio" name="Topping" id="Topping" >
+                        <label for="Topping"> Margherita</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Small" id="Small">
+                        <label for="Small">Small</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Mushrooms" id="Extras">
+                        <label for="Extras">Mushrooms</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="Topping" id="Topping">
+                        <label for="Topping">Four Seasons</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Small" id="Small">
+                        <label for="Small">Medium</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Extras" id="Extras">
+                        <label for="Extras">Green peppers</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="Topping" id="Topping">
+                        <label for="Topping">Meat Feast</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Small" id="Topping">
+                        <label for="Small">Large</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Extras">
+                        <label for="Extras">Anchovies</label>
+                    </td>
+                </tr>
+                <td></td>
+                <td></td>
+                <td ><input type="checkbox" >Extra cheese</td>
+                </table>
+                <table align="center">
+                    <tr>
+                        <td>
+                        <label for="time">Preferred delevery time:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="18:30" >
+                        </td>
+                    </tr>    
+                        <tr>
+                            <td><label for="Instructions">Delivery instructions:</label></td>
+                            <td>
+                            <input type="text " placeholder="Hurry up,I'm hungry">
+                            </td>
+                        </tr>
+                        <br><br>
+                        <tr style="height: 20px;">
+                            <td></td>
+                        </tr>
+                    <tr>
+                        <td align="center" colspan="2" >
+                        <button type="submit" style="background-color:palevioletred; color: whitesmoke; border-radius: 5px;">Submit Order</button>
+                        </td>
+                    </tr>
+                </table>
+                
+                </div>
+               </table>
+            </div>
+                </table>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
